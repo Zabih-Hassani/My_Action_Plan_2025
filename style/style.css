@@ -16,7 +16,7 @@
       margin-bottom: 8px;
     }
     thead th {
-      background:hsl(65, 100%, 50%);
+      background:hsl(60, 100%, 50%);
       color:rgb(0, 0, 0);
       padding:8px;
       text-align:center;
@@ -34,7 +34,16 @@
       text-align:center;
     }
     input{
+        width: auto;
         height: 40px;
         border: 0px solid black;
+        overflow-x: scroll;
+        text-transform: capitalize;
+    }
+    input:hover{
+        background-color: aqua;
+        color: black;
+        text-align: left;
+        text-transform: uppercase;
     }
     .table-container { overflow-x:auto; } /* gjør den scrollbar ved trang skjerm */
